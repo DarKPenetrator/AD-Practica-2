@@ -1,0 +1,88 @@
+.Titulo{
+display: flex;
+margin: 50px 0px 50px 0px;
+justify-content: center;
+border-bottom-style: solid  ;
+border-color: 1px black ;
+
+}
+
+
+
+.Titulo h1{
+    border-color: 1px black ;
+border-style: solid;
+    padding: 10px 40px 10px 40px;
+    margin-left: 175px;
+}
+.Titulo h1:hover{
+    background-color: #7fcff4f8;
+    border-color:  #4896bbf8;
+    color: #f0ffff;
+    cursor: pointer;
+    
+    }
+
+body section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0px 20px 0px 20px;
+    height: auto;
+}   
+
+.ApirestNav{
+padding: 10px;
+border-style:solid ;
+height: 200px;
+width: 210px;
+}
+
+.ApirestNav h3:hover{
+    background-color: #7fcff4f8;
+    border-color:  #4896bbf8;
+    color: #f0ffff;
+    cursor: pointer;
+    border-style: solid;
+    }
+.info{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    margin: 10px;
+}
+
+.options li{
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 116px;
+    border-style: solid ;
+}
+.options li:hover{
+    background-color: #7fcff4f8;
+    border-color:  #4896bbf8;
+    color: #f0ffff;
+}
+.options h3{
+    margin: 0;
+    padding: 18px 9px 18px 9px;
+    cursor: pointer;
+}
+
+.ShowInfo{
+    width: 807.244px;
+    height:  200px;
+    border-style: solid ;
+}
