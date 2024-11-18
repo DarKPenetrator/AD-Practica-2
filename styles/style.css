@@ -6,14 +6,17 @@ border-bottom-style: solid  ;
 border-color: 1px black ;
 
 }
-
+a {
+    color: inherit; /* Usa el color del elemento padre */
+    text-decoration: none; /* Elimina el subrayado */
+}
 
 
 .Titulo h1{
     border-color: 1px black ;
 border-style: solid;
     padding: 10px 40px 10px 40px;
-    margin-left: 175px;
+    margin-left: 250px;
 }
 .Titulo h1:hover{
     background-color: #7fcff4f8;
@@ -50,6 +53,15 @@ width: 210px;
     cursor: pointer;
     border-style: solid;
     }
+
+.selected{
+    background-color: #7fcff4f8;
+    border-color:  #4896bbf8;
+    color: #f0ffff;
+    cursor: pointer;
+    border-style: solid;
+}
+
 .info{
     display: flex;
     flex-direction: column;
