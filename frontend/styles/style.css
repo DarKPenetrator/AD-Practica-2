@@ -86,11 +86,12 @@ width: 210px;
     background-color: #7fcff4f8;
     border-color:  #4896bbf8;
     color: #f0ffff;
+    cursor: pointer;
 }
 .options h3{
     margin: 0;
     padding: 18px 9px 18px 9px;
-    cursor: pointer;
+    
 }
 
 .ShowInfo{
