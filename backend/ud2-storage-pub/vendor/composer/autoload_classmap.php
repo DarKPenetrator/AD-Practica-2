@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\CsvController' => $baseDir . '/app/Http/Controllers/CsvController.php',
     'App\\Http\\Controllers\\HelloWorldController' => $baseDir . '/app/Http/Controllers/HelloWorldController.php',
     'App\\Http\\Controllers\\JsonController' => $baseDir . '/app/Http/Controllers/JsonController.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
@@ -5941,6 +5942,7 @@ return array(
     'Termwind\\ValueObjects\\Node' => $vendorDir . '/nunomaduro/termwind/src/ValueObjects/Node.php',
     'Termwind\\ValueObjects\\Style' => $vendorDir . '/nunomaduro/termwind/src/ValueObjects/Style.php',
     'Termwind\\ValueObjects\\Styles' => $vendorDir . '/nunomaduro/termwind/src/ValueObjects/Styles.php',
+    'Tests\\Feature\\CsvTest' => $baseDir . '/tests/Feature/CsvTest.php',
     'Tests\\Feature\\HelloWorldControllerTest' => $baseDir . '/tests/Feature/HelloWorldControllerTest.php',
     'Tests\\Feature\\JsonTest' => $baseDir . '/tests/Feature/JsonTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',

@@ -515,6 +515,7 @@ class ComposerStaticInit8e4e7eed170f7766319a45a2f526b879
 
     public static $classMap = array (
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\CsvController' => __DIR__ . '/../..' . '/app/Http/Controllers/CsvController.php',
         'App\\Http\\Controllers\\HelloWorldController' => __DIR__ . '/../..' . '/app/Http/Controllers/HelloWorldController.php',
         'App\\Http\\Controllers\\JsonController' => __DIR__ . '/../..' . '/app/Http/Controllers/JsonController.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
@@ -6449,6 +6450,7 @@ class ComposerStaticInit8e4e7eed170f7766319a45a2f526b879
         'Termwind\\ValueObjects\\Node' => __DIR__ . '/..' . '/nunomaduro/termwind/src/ValueObjects/Node.php',
         'Termwind\\ValueObjects\\Style' => __DIR__ . '/..' . '/nunomaduro/termwind/src/ValueObjects/Style.php',
         'Termwind\\ValueObjects\\Styles' => __DIR__ . '/..' . '/nunomaduro/termwind/src/ValueObjects/Styles.php',
+        'Tests\\Feature\\CsvTest' => __DIR__ . '/../..' . '/tests/Feature/CsvTest.php',
         'Tests\\Feature\\HelloWorldControllerTest' => __DIR__ . '/../..' . '/tests/Feature/HelloWorldControllerTest.php',
         'Tests\\Feature\\JsonTest' => __DIR__ . '/../..' . '/tests/Feature/JsonTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',

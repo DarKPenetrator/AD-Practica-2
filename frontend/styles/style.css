@@ -95,7 +95,8 @@ width: 210px;
 }
 
 .ShowInfo{
-    width: 807.244px;
+    min-width: 807.244px;
+    width: auto;
     height:  200px;
     border-style: solid ;
 }
