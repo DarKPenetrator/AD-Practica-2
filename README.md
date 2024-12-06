@@ -1,1 +1,34 @@
-# AD-Practica-2
+# AD Practica 2
+
+
+### Pasos Previos
+
+Inicialmente el proyecto esta configurado para ser utilizado con tal solo iniciar el servidor pero primero hay que confirmar que todo funciona correctamente.
+
+Pasos previos:
+
+`Descargue el repositorio y descomprimalo`
+`Una vez descomprimido abra el directorio en cmd`
+`Tendra dos carpetas Frontend y Backend`
+`Se necesita comprobar que el Backend funciona correctamente`
+Navega al directorio del backend
+`cd .\backend\ud2-storage-pub\`
+Y ejecuta el siguiente comando
+`php artisan test`
+Deberían salir tres test diferentes y salir todos en verde marcando que esta todo correcto
+Si es el caso, todo estaria funcionando correctamente
+Por tanto iniciamos el servidor del backend con el siguiente comando en el cmd
+`php artisan serve`
+
+
+
+
+COMANDOS
+<br>
+Para iniciar el proyecto
+`e`
+`e`
+`e`
+`e`
+`e`
+
