@@ -12,7 +12,10 @@ Pasos previos:
 `Tendra dos carpetas Frontend y Backend`
 `Se necesita comprobar que el Backend funciona correctamente`
 Navega al directorio del backend
-`cd .\backend\ud2-storage-pub\`
+```bash
+cd .\backend\ud2-storage-pub\
+```
+
 Y ejecuta el siguiente comando
 ```bash
 php artisan test
