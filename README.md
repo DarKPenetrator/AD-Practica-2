@@ -14,11 +14,15 @@ Pasos previos:
 Navega al directorio del backend
 `cd .\backend\ud2-storage-pub\`
 Y ejecuta el siguiente comando
-`php artisan test`
+```bash
+php artisan test
+```
 Deberían salir tres test diferentes y salir todos en verde marcando que esta todo correcto
 Si es el caso, todo estaria funcionando correctamente
 Por tanto iniciamos el servidor del backend con el siguiente comando en el cmd
-`php artisan serve`
+```bash
+php artisan serve
+```
 
 
 
