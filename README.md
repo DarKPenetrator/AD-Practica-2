@@ -36,7 +36,7 @@ Navega al directorio del backend
 cd .\backend\ud2-storage-pub\
 ```
 
-Y ejecuta el siguiente comando
+Y ejecuta el siguiente comando(Puede tardar unos segundos, si tarda demasiado presionar CTRL+C y volver a ejecutar)
 ```bash
 php artisan test
 ```
@@ -98,7 +98,7 @@ Cada tipo de dato permite realizar 5 operaciones posibles:
 ---
 
 
-Para cada tipo de dato se ha creado un archivo de prueba llamado `test.(extensión del formato)` que puede ser utilizado para verificar el funcionamiento de las operaciones. Además, se han agregado algunos archivos adicionales para que se pueda experimentar introduciendo y gestionando nuevos datos.
+Para cada tipo de dato se ha creado un archivo de prueba llamado `test.(extensión del formato)` que puede ser utilizado para verificar el funcionamiento de las operaciones. Además, se han agregado algunos comandos adicionales para que se pueda experimentar introduciendo, actualizando y gestionando nuevos datos.
 
 <br>
 
