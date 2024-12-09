@@ -1,2 +1,8 @@
 *
+app/*
+
 !.gitignore
+!test.txt
+!app/
+!app/test.json
+!app/test.csv

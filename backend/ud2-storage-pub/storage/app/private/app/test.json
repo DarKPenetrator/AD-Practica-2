@@ -1,0 +1,8 @@
+{
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "age": 30,
+    "skills": ["JavaScript", "PHP", "Laravel"],
+    "active": true,
+    "registered_at": "2023-12-10"
+}

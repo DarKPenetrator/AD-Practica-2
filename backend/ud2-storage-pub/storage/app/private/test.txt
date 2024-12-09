@@ -1,0 +1,3 @@
+Este es un archivo de prueba para Class Storage.
+Contiene líneas de texto simples que serán gestionadas por el sistema.
+Puedes modificar este contenido o añadir nuevas líneas según sea necesario.

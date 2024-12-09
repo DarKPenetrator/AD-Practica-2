@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const showInfo = document.querySelector('.ShowInfo');
-    const options = document.querySelectorAll('.options li h3');
+    const options = document.querySelectorAll('.options li');
 
     options.forEach(option => {
         option.addEventListener('click', handleOptionClick);
